@@ -1,0 +1,10 @@
+type Video @model {
+  id: ID!
+  name: String!
+  description: String
+  cloudinary: AWSJSON
+}
+type Query {
+  cloudinarysignature(msg: String): String
+    @function(name: "cloudinarysignature-${env}")
+}
