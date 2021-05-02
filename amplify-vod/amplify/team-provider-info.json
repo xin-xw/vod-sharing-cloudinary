@@ -1,23 +1,29 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-amplifyvod-dev-172402-authRole",
-      "UnauthRoleArn": "arn:aws:iam::832814473346:role/amplify-amplifyvod-dev-172402-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::832814473346:role/amplify-amplifyvod-dev-172402-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-amplifyvod-dev-172402-deployment",
-      "UnauthRoleName": "amplify-amplifyvod-dev-172402-unauthRole",
-      "StackName": "amplify-amplifyvod-dev-172402",
-      "StackId": "arn:aws:cloudformation:us-east-1:832814473346:stack/amplify-amplifyvod-dev-172402/b398ba70-aadc-11eb-a5d9-0e9b76727ea5",
-      "AmplifyAppId": "d2hlows9ad279"
-    },
-    "categories": {
-      "function": {
-        "cloudinarysignature": {
-          "deploymentBucketName": "amplify-amplifyvod-dev-172402-deployment",
-          "s3Key": "amplify-builds/cloudinarysignature-50454f6772354c517068-build.zip"
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amplifyvod-dev-172402-authRole",
+            "UnauthRoleArn": "arn:aws:iam::832814473346:role/amplify-amplifyvod-dev-172402-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::832814473346:role/amplify-amplifyvod-dev-172402-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-amplifyvod-dev-172402-deployment",
+            "UnauthRoleName": "amplify-amplifyvod-dev-172402-unauthRole",
+            "StackName": "amplify-amplifyvod-dev-172402",
+            "StackId": "arn:aws:cloudformation:us-east-1:832814473346:stack/amplify-amplifyvod-dev-172402/b398ba70-aadc-11eb-a5d9-0e9b76727ea5",
+            "AmplifyAppId": "d2hlows9ad279"
+        },
+        "categories": {
+            "function": {
+                "cloudinarysignature": {
+                    "deploymentBucketName": "amplify-amplifyvod-dev-172402-deployment",
+                    "s3Key": "amplify-builds/cloudinarysignature-65704d57723437307564-build.zip"
+                }
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2hlows9ad279",
+                    "type": "manual"
+                }
+            }
         }
-      }
     }
-  }
 }
